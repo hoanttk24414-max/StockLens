@@ -12,8 +12,8 @@ def get_market_data(ticker: str, start_date: str, end_date: str) -> pd.DataFrame
     :return: pd.DataFrame chứa dữ liệu OHLCV đã làm sạch.
     """
     endpoint = "https://openapi.dnse.com.vn/price/ohlc"
-    api_key = "eyJvcmciOiJkbnNlliwiaWQiOiI5NDg0M2U3MzQ4Mjc0ZDA4YWEwNDY0ZDlhMzE4MDE3MCIsImgiOiJtdXJtdXIxMjgifQ=="
-    api_secret = "3jl11336oEsDZS7mF6er0ziWzS8fb7WLVoxjY8ZciTWONQwLj1nLezJgTaxqYz5MJxGWPYYbZn9mZ28KDOvILA"
+    api_key = "eeyJvcmciOiJkbnNlIiwiaWQiOiJjOTc3YTAxYjkwNDc0MjJmYTQ3NDc1NGI1NjQ3MTRhYiIsImgiOiJtdXJtdXIxMjgifQ=="
+    api_secret = "-htWypmlDcQYouE3QO5wFtgUvrcEKXz2Gnx65PJhrEPRc_4gsqPZQDAZSJvlTzYfg5q8FiV7qKlMsi8uOYhukA"
     
     headers = {
         "x-api-key": api_key,
