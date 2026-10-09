@@ -33,18 +33,18 @@
 
 ```mermaid
 flowchart TD
-    A[Người dùng chọn mã và ngày] --> B[Dữ liệu thị trường - TV1]
-    A --> C[Dữ liệu tài chính - TV3]
-    B --> D[Phân tích kỹ thuật - TV2]
-    B --> E[Phân tích định giá - TV4]
+    A[Người dùng chọn mã và ngày] --> B[Dữ liệu thị trường]
+    A --> C[Dữ liệu tài chính]
+    B --> D[Phân tích kỹ thuật]
+    B --> E[Phân tích định giá]
     C --> E
     F[Nhóm doanh nghiệp cùng ngành] --> E
-    A --> G[Phân tích tin tức - TV5]
-    D --> H[Investment Score - TV6]
+    A --> G[Phân tích tin tức]
+    D --> H[Investment Score]
     C --> H
     E --> H
     G --> H
-    H --> I[Báo cáo PDF tùy chọn - TV6]
+    H --> I[Báo cáo PDF tùy chọn]
 ```
 
 *Lưu đồ kiến trúc mục tiêu; không phải bằng chứng mọi mắt xích đã chạy thành công.*
