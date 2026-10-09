@@ -61,7 +61,7 @@ flowchart TD
 | **News Analysis** | Thu thập và phân loại cảm xúc tin tức | Đang phát triển |
 | **Automated Reporting** | Investment Score theo phong cách, tạo PDF | Đang tích hợp |
 
-### 🔍 Phân tích định giá (TV4)
+### 🔍 Phân tích định giá
 
 Các công thức lõi:
 
@@ -77,7 +77,7 @@ P/B = Giá cổ phiếu / BVPS
 - **Valuation Score** là thang điểm tương đối 0–100 do nhóm thiết kế, **không phải giá trị nội tại, xác suất tăng giá hoặc tín hiệu mua/bán**.
 - Khi thiếu EPS, BVPS, dữ liệu cùng ngành hoặc nguồn truy cập, hệ thống phải hiển thị thiếu dữ liệu thay vì tự gán 0 hoặc 100.
 
-Giao diện hàm của TV4:
+Giao diện hàm của:
 
 ```python
 from src.valuation import analyze_valuation
