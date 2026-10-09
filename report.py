@@ -40,10 +40,8 @@ from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.platypus import (Image, KeepInFrame, PageBreak, Paragraph, SimpleDocTemplate, Spacer,
                                 Table, TableStyle)
 
-try:
-    from src import scoring
-except ImportError:  # chạy lẻ ngoài cấu trúc repo
-    import scoring  # type: ignore
+# Root-level scoring.py computes the Investment Score. src/scoring.py is TV5's NewsScorer.
+import scoring
 
 ROOT = Path(__file__).resolve().parent
 

@@ -141,7 +141,8 @@ def _mock(name: str) -> dict:
 # --------------------------------------------------------------------------
 def run_pipeline(ticker: str, start_date: str, end_date: str, style: str, demo: bool = False) -> dict:
     ticker = ticker.strip().upper()
-    scoring = _import("scoring")
+    # Investment scoring is the root-level scoring.py; src/scoring.py belongs to TV5.
+    scoring = importlib.import_module("scoring")
     results: dict = {}
     errors: dict = {}
 
